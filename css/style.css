@@ -124,6 +124,33 @@ header h1{
     font-weight: 300;
     line-height: 2;
 }
+footer{
+    background-color: #7c69a4;
+    color: white;
+    text-align: center;
+    padding:20px 0;
+}
+.footer-info{
+    line-height: 2;
+}
+.footer-link a{
+    color: inherit;
+
+}
+.nav-footer ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.nav-footer ul li:last-child{
+    width: 100%;
+    padding-top: 20px;
+}
+.nav-footer li:not(:last-child){
+    padding-right: 30px;
+}
 
 /*------RESPONSIVE------*/
 
@@ -157,6 +184,13 @@ header h1{
         margin-right: 10px;
         margin-top: 8px;
     } 
+    .nav-footer ul{
+        flex-wrap:nowrap;
+    }
+    .nav-footer ul li:last-child{
+        padding-top: 0px;
+        width: auto;
+    }
 }
 
 
@@ -182,5 +216,11 @@ header h1{
     }
     .btn-space .hide{
         display: inline;
+    }
+    .row-footer{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding:0 16px;
     }
 }
