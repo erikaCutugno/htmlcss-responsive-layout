@@ -196,6 +196,9 @@ footer{
 
 /*-----DESKTOP-----*/
 @media  screen and (min-width: 992px) {
+    h2{
+        font-size: 36px;
+    }
     .row{
         display: flex;
         flex-wrap: nowrap;
