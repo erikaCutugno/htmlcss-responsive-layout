@@ -217,6 +217,9 @@ footer{
     .btn-space .hide{
         display: inline;
     }
+    .btn i{
+        padding-right: 4px;
+    }
     .row-footer{
         display: flex;
         text-align: left;
