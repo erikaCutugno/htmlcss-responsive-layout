@@ -1,0 +1,73 @@
+/*----- RESET -----*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---- GENERAL -----*/
+
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-40{
+    gap: 40px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-fluid{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex-grow: 1;
+}
+
+/*---- BUTTONS -----*/
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color:#0061fe;
+    color: white;
+}
+.btn-primary:hover{
+    background-color:#073077;
+    color: white;
+}
+.btn-secondary{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-secondary:hover{
+    background-color: rgb(171, 165, 165);
+    color: black;
+    border: 1px solid black;
+}
+
+/*---- TYPHOGRAPHY -----*/
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
