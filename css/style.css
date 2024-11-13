@@ -153,6 +153,20 @@ footer{
 }
 
 /*------RESPONSIVE------*/
+/*-----MOBILE-LARGE-----*/
+@media screen and (min-width: 576px) {
+    .img-tiramisù{
+        float:left;
+        margin-right: 10px;
+        margin-top: 8px;
+    } 
+    .btn-space .btn{
+        width: 100%;
+    }
+    .btn-space .btn:not(:last-child){
+        margin-right: 20px;
+    }
+}
 
 /*-----TABLET-----*/
 @media  screen and (min-width: 768px) {
@@ -175,7 +189,7 @@ footer{
     }
     .btn-space .btn{
     width: 100%;
-}
+    }
     .btn-space .btn:not(:last-child){
         margin-right: 20px;
     }
